@@ -31,6 +31,12 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
 
 ---
 
+3. Verificar instalacion de python
+
+```bash
+py -0
+```
+
 ## **Instalación de ML-Agents** 🤖
 
 1. Abre una terminal en la carpeta de tu proyecto y asegúrate de estar en la ruta correcta.
