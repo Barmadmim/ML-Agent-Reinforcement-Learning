@@ -57,14 +57,9 @@ py -0
    (Nombre_de_tu_entorno) C:\users\TuUsuario\Lugardondetienestuproyecto
    ```
 
-5. Instala ML-Agents y las dependencias:
+5. Instalar todas las dependencias:
    ```bash
-   pip install mlagents
-   ```
-
-6. También necesitas instalar PyTorch, una dependencia necesaria para entrenar el agente:
-   ```bash
-   pip install torch torchvision torchaudio
+   pip install -r requirements.txt
    ```
 
 7. Verifica que ML-Agents se instaló correctamente ejecutando el siguiente comando:
@@ -74,38 +69,7 @@ py -0
 
 ---
 
-## **Configuración del YAML** 📄
 
-Antes de iniciar el entrenamiento, necesitarás un archivo de configuración **YAML**. Crea una carpeta `config` dentro de tu proyecto de Unity y añade un archivo `trainer_config.yaml`.
-
-Ejemplo de archivo `trainer_config.yaml`:
-
-```yaml
-behaviors:
-  AgentController:
-    trainer_type: ppo
-    hyperparameters:
-      batch_size: 64
-      buffer_size: 2048
-      learning_rate: 3.0e-4
-      beta: 5.0e-4
-      epsilon: 0.2
-      lambd: 0.95
-      num_epoch: 3
-    network_settings:
-      normalize: false
-      hidden_units: 128
-      num_layers: 2
-    reward_signals:
-      extrinsic:
-        gamma: 0.99
-        strength: 1.0
-    max_steps: 500000
-    time_horizon: 64
-    summary_freq: 10000
-```
-
----
 
 ## **Entrenamiento del agente** 🏋️‍♂️
 
@@ -114,7 +78,7 @@ behaviors:
 
 3. Desde la terminal, ejecuta el comando para iniciar el entrenamiento del agente:
    ```bash
-   mlagents-learn config/trainer_config.yaml --run-id <nombre_de_experimento>
+   mlagents-learn --run-id <nombre_de_experimento>
    ```
 
 4. Una vez iniciado el entorno, selecciona **Play** en Unity para comenzar el entrenamiento.
