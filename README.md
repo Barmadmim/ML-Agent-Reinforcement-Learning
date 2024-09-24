@@ -106,7 +106,15 @@ py -0
    ```bash
    Ctrl + C
    ```
+- Para Revisar si hay algun error entre dependencias
+  ```bash
+   pip check
+   ```
+- Para mostrar dependencias instaladas
+ ```bash
+   pip freeze
 
+   ```
 ---
 
 ## **Probar el agente entrenado** 🎮
