@@ -44,17 +44,17 @@ py -0
 
 2. Crea un entorno virtual con la versión de Python adecuada (3.8 - 3.10). Para este ejemplo, utilizamos Python 3.8:
    ```bash
-   py -3.8 -m venv Nombre_de_tu_entorno
+   py -3.8 -m venv venv
    ```
 
 3. Activa el entorno virtual. Usa `\` para sistemas Windows:
    ```bash
-   Nombre_de_tu_entorno\Scripts\activate
+   venv\Scripts\activate
    ```
 
 4. Si todo funcionó bien, deberías ver algo como esto en tu terminal:
    ```bash
-   (Nombre_de_tu_entorno) C:\users\TuUsuario\Lugardondetienestuproyecto
+   (venv) C:\users\TuUsuario\Lugardondetienestuproyecto
    ```
 
 5. Instalar todas las dependencias:
