@@ -61,13 +61,18 @@ py -0
    ```bash
    pip install -r requirements.txt
    ```
+6. Actualizar pip
+
+   ```bash
+   pip install --upgrade pip
+   ```
 
 7. Verifica que ML-Agents se instaló correctamente ejecutando el siguiente comando:
+
    ```bash
    mlagents-learn --help
    ```
 
----
 
 
 
