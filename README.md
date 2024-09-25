@@ -14,6 +14,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en t
 - [Unity Hub](https://unity.com/download) (versión 2020.3 o superior recomendada)
 - [Python 3.8 - 3.10](https://www.python.org/downloads/)
 - [ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents) instalado
+- [Tarjeta Grafica(GPU)]( ) ( o 16 de ram minimo)
 
 ---
 
