@@ -4,6 +4,7 @@
 # **ML-Agent Reinforcement Learning** 🧠
 
 Este proyecto utiliza **ML-Agents** de Unity para implementar un agente que aprende a moverse en un entorno 3D utilizando aprendizaje por refuerzo.
+<p align="center"> <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"> <img src="https://img.shields.io/badge/ML%20Agents-FFCA28?style=for-the-badge&logo=unity&logoColor=black" alt="ML Agents"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Machine%20Learning-FF8C00?style=for-the-badge" alt="Machine Learning"> <img src="https://img.shields.io/badge/Reinforcement%20Learning-007ACC?style=for-the-badge" alt="Reinforcement Learning"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> </p>
 
 ---
 ---
@@ -152,7 +153,6 @@ py -0
      ```bash
      pip install grpcio-tools
      ```
-
 ---
 
 ## **Referencias y Recursos** 📚
