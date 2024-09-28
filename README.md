@@ -85,9 +85,9 @@ py -0
 1. En Unity, selecciona el **Componente Agent** y asegúrate de que la opción `Behavior Type` esté configurada como **Default** para el entrenamiento.
 2. Verifica que Unity está conectado a ML-Agents y que tu archivo YAML está listo.
 
-3. Desde la terminal, ejecuta el comando para iniciar el entrenamiento del agente y agrega --no-graphics en caso de no tener GPU
+3. Desde la terminal, ejecuta el comando para iniciar el entrenamiento del agente.
    ```bash
-   mlagents-learn --run-id <nombre_de_experimento> --no-graphics
+   mlagents-learn --run-id <nombre_de_experimento>
    ```
 
 4. Una vez iniciado el entorno, selecciona **Play** en Unity para comenzar el entrenamiento.
