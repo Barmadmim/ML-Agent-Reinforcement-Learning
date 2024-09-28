@@ -6,6 +6,9 @@
 Este proyecto utiliza **ML-Agents** de Unity para implementar un agente que aprende a moverse en un entorno 3D utilizando aprendizaje por refuerzo.
 
 ---
+---
+![ML-Agents](https://github.com/user-attachments/assets/8d9ffc2a-573d-4fa9-bae1-f95fa1a29a25)
+---
 
 ## **Requisitos previos** ✅
 
