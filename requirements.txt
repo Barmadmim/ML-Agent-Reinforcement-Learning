@@ -34,9 +34,9 @@ sympy==1.13.3
 six==1.16.0
 tensorboard==2.14.0
 tensorboard-data-server==0.7.2
-torch==1.7.0
-torchaudio==0.7.0
-torchvision==0.8.1
+torch==1.10.2
+torchaudio==0.10.2
+torchvision==0.11.3
 typing_extensions==4.12.2
 urllib3==2.2.3
 Werkzeug==3.0.4
