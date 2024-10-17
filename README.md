@@ -16,7 +16,7 @@ Este proyecto utiliza **ML-Agents** de Unity para implementar un agente que apre
 Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en tu máquina:
 
 - [Unity Hub](https://unity.com/download) (versión 2020.3 o superior recomendada)
-- [Python 3.8]([https://www.python.org/downloads/](https://www.python.org/downloads/release/python-380/))
+- [Python 3.8](https://www.python.org/downloads/release/python-380/)(Version Recomendada)
 - [ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents) instalado
 - [Tarjeta Gráfica (GPU)](https://www.nvidia.com/en-us/geforce/graphics-cards/) (o 16 GB de RAM mínimo)
 ---
